@@ -6,3 +6,5 @@ Its not about learning all of the Java in 100 days :)
 We together are going to look at some common and uncommon concepts of Java and brush it up thoroughly. We will code, ready books/blogs/vlogs and share our knowledge with everyone.
 
 Lets do it :)
+
+Happy coding!
