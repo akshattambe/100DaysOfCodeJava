@@ -8,3 +8,5 @@
 /httpRequests/
 /.idea/*
 *.iml
+/target/
+*.class
