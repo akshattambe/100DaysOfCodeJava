@@ -1,6 +1,6 @@
 package org.example.akshat;
 
-public class NullPointerOrIllegalArgument {
+public class Day12_NullPointerOrIllegalArgument {
 
 
     /**
