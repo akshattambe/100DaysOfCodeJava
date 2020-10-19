@@ -4,9 +4,8 @@ import com.google.common.base.Predicates;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import javax.sql.rowset.Predicate;
 import java.util.List;
 
 public class Day13_Guava_lists {
