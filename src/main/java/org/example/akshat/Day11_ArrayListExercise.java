@@ -10,8 +10,6 @@ import java.util.List;
 public class Day11_ArrayListExercise {
 
     public static void main(String[] args){
-//        new Day11_ArrayListExercise().givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect();
-
         new Day11_ArrayListExercise().RemovingDuplicatesWithJava();
     }
 
@@ -22,7 +20,7 @@ public class Day11_ArrayListExercise {
     public void RemovingDuplicatesWithJava() {
         List<Integer> listWithDuplicates = Lists.newArrayList(0, 1, 2, 3, 0, 0);
         List<Integer> listWithoutDuplicates = new ArrayList<>(
-                new HashSet<>(listWithDuplicates)); //List can be passed as an argument to HashSet
+                new HashSet<>(listWithDuplicates)); //List can be passed as an argument to HashSet and vice-versa
 
         Assert.assertTrue(listWithoutDuplicates.size() == 4);
 
