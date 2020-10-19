@@ -2,6 +2,22 @@ package org.example.gauravk;
 
 public class Day16_Static_Class_methods_Variable {
 
+
+    public static class iamStaticClass
+    {
+        int nonStatic;
+        static int staticVariable;
+        public void nonstaticIam()
+        {
+            System.out.println(" I am a nonstatic method in a static class, you can call me via object only even though i am part of a static class");
+        }
+
+        public static void staticIam() {
+
+            System.out.println(" I am a static method in static class. So use my class name to access me ");
+             System.out.println(" Hey you know Static method inside nested class can access outer class static methods as well"+iamstatic);
+        }
+    }
     int nonstatic;
     static int iamstatic;
     static
@@ -63,6 +79,17 @@ public class Day16_Static_Class_methods_Variable {
         // Non Static - instance  methods
         Day16_Static_Class_methods_Variable obj = new Day16_Static_Class_methods_Variable();
         System.out.println(" Now you are accessing me the way you should using an object "+ obj.nonstatic);
+
+        // Static Class
+        System.out.println(" You can create objects for a static class to access nonstatic variables and methods");
+        iamStaticClass objStat = new iamStaticClass();
+
+        System.out.println("Variable from a static class"+ objStat.nonStatic);
+        objStat.nonstaticIam();
+
+        System.out.println("For accessing a static class or static variable, use class name "+iamStaticClass.staticVariable);
+        iamStaticClass.staticIam();
+
 
 
     }
