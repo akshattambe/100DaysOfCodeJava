@@ -1,6 +1,6 @@
 package org.example.akshat.day16_17;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class StaticBlocks {
@@ -9,7 +9,7 @@ public class StaticBlocks {
         System.out.println(friends);
     }
 
-    public static List<String> friends = new LinkedList<>();
+    public static List<String> friends = new ArrayList<>();
 
     static {
         friends.add("Tommy");
