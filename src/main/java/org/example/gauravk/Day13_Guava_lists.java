@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Day13_Guava_lists {
     @Test
-    public static void guava()
+    public void guava()
     {
 
         // Lists to easily assign a list
