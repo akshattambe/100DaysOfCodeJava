@@ -4,6 +4,7 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 /*
 Can not access private variables or methods or classes from the next class
 Only one class allowed as static nested class
+In static block or static method we can not define variables with any modifier,except default.
  */
 public class Day20_Class1 {
     public String s1 = "This is a public Variable in outer class";
