@@ -1,5 +1,5 @@
 # 100DaysOfCodeJava
-Learning Java for 100 Days. Thats untill 31st Dec 2020. We have started this series on Twitter on October 3rd.
+Learning Java for 100 Days. Thats untill 31st Dec 2020. I with Wetesterr have started this series on Twitter on October 3rd.
 
 It's not about learning all of the Java in 100 days :)
 
