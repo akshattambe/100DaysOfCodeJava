@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class PQExample {
+public class Day36_PQExample {
     private static void printArguments(Object obj) {
         System.out.println(obj);
     }
