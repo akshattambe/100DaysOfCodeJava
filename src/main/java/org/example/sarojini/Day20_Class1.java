@@ -1,6 +1,5 @@
 package org.example.sarojini;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 /*
 Can not access private variables or methods or classes from the next class
 Only one class allowed as static nested class
