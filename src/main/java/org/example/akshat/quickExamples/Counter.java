@@ -1,6 +1,10 @@
 package org.example.akshat.quickExamples;
 
 public class Counter {
+    static{
+        System.out.println("Boom");
+    }
+
     public static void main(String args []) {
         long longWithL = 1000*60*60*24*365L;
         long longWithoutL = 1000*60*60*24*365;
