@@ -12,6 +12,11 @@ public class UniqueValues {
         System.out.println("Please enter email : ");
         String email = scanner.nextLine();
 
+        //Get the country code.
+        System.out.println("Please enter 2 digit country code for telephone like 46 for SE: ");
+        int phone = scanner.nextInt() * 100000;
+        int fixedNum = 75155;
+
         //Process email.
         String[] emailArr = email.split("@");
 
@@ -19,13 +24,13 @@ public class UniqueValues {
         String suf = String.format("%04d", new Random().nextInt(10000));
 
         //Prepare Personal details.
-        List<String> li = new ArrayList<>();
-        li.add("+4675155");
+        List<Object> li = new ArrayList<>();
+        li.add("+" + Integer.toString(phone + fixedNum));
         li.add("Hisingsgatan ");
 
         //Print unique data.
         System.out.println(emailArr[0] + "+" + suf + "@" + emailArr[1]);
-        for(String e:li){
+        for(Object e:li){
             System.out.println(e + suf);
         }
     }
