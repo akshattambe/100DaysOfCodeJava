@@ -1,5 +1,8 @@
 package org.example.akshat;
 
+import javax.management.AttributeList;
+import javax.management.relation.RoleList;
+import javax.management.relation.RoleUnresolvedList;
 import java.util.*;
 
 public class PracticeSet {
@@ -12,6 +15,10 @@ public class PracticeSet {
         HashSet<String> hashSetObj = new HashSet<String>();
         TreeSet<Object> treeSetObj = new TreeSet<>();
         LinkedHashSet<Object> linkedHashSetObj = new LinkedHashSet<>();
+        List<String> asd = new ArrayList<>();
+        new AttributeList();
+        new RoleList();
+        new RoleUnresolvedList();
 
         hashSetObj.add("bbb");
         hashSetObj.add("aaa");
