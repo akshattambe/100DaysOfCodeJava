@@ -24,7 +24,7 @@ public class Day51_Vectror_retainall {
 
         System.out.println(v2);
         boolean value=v2.retainAll(v);
-        System.out.println("Retains all retrun a true if vector has changed because of this operation. so in current case = "+value);
+        System.out.println("Retains all return a true(boolean) if vector has changed because of this operation. so in current case = "+value);
         System.out.println(v2);
 
 
